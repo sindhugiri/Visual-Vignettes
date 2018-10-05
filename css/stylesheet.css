@@ -1,0 +1,59 @@
+@import "compass/css3";
+
+.flexbox-navigation{
+    padding:0;
+    margin: 0;
+    min-width: 100%;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flexbox-links{flex-basis: auto; padding:14px 14px; line-height: 10px; color: black; font-family: 'EB Garamond', serif; text-align: left;}
+
+.flexbox-body{min-width: 100%; justify-content: flex-start;}
+.flexbox-image{max-width: 50%; max-height:50%}
+
+.indexheader{margin: 14px; padding:14px 14px; max-width: 70%; background-image: url(../images/gray_rect.png)}
+.header{margin: 14px; padding:14px 14px; max-width: 70%; background-image: url(../images/gray_rect.png)}
+
+.image1{padding: 14px; line-height: 8px;}
+.image2{padding: 14px; line-height: 8px;}
+.image3{padding: 14px; line-height: 8px;}
+.image4{padding: 14px; line-height: 8px;}
+.image5{padding: 14px; line-height: 8px;}
+
+.flexbox-footer{ 
+padding:0;
+margin: 0;
+min-width: 100%;
+list-style: none;
+
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+
+-webkit-flex-flow: row wrap;
+justify-content: flex-start;}
+
+.flexbox-socialmedia{flex-basis: auto; list-style: none; font-size: 25px;}
+
+#biophoto{max-width: 50%; max-height:50%; padding:14px 16px;}
+#LinkedIn_icon{color: #0E76A8;padding:8px 14px;}
+#Tumblr_icon{color: #34465D;padding:8px 5px;}
+
+li a{text-decoration: none;}
+h1{font-family: 'Gothic A1', sans-serif;}
+p{font-family: 'EB Garamond', serif}
+
+
+
