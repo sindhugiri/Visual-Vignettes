@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Visual Vignettes</title>
+    <link rel= "stylesheet" type= "text/css" href= "../css/stylesheet.css">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<main> 
+<body>
+<nav>
+    <div class="flexbox-navigation" id="myTopnav">
+        <a href = "../html/index.html">Introduction</a></li> 
+        <a href = "../html/art.html">Fine Art</a></li> 
+        <a href = "../html/design.html">Design</a></li>
+        <a href = "../html/environments.html">Environments</a></li>
+        <a href = "javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+</nav>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "flexbox-navigation") {
+        x.className += " responsive";} 
+    else {x.className = "flexbox-navigation";}}
+</script>   
+
+
+<div class=header>  
+    <h1>Fine Art </h1> 
+    <p>I’m immediately attracted to conceptually-driven art of unconventional media. In understanding technical skills, I enjoy analyzing masters’ studies or process work. Art should be provocative while also maintaining a high level of intent and craftsmanship.</p>
+</div>
+
+<div class="flexbox-body">
+<div class="row">
+    <div class="column">
+        <div class="image">
+            <img src="../images/Art1.jpeg" class ="flexbox-image" alt="Color Studies by Joseph Albers at the SFMOMA in San Francisco">
+            <figcaption>Series of color studies done by the color theory master himself—Josef Albers. This particular set is interesting since it tests analogous hues alongside each other.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art2.jpeg" class ="flexbox-image" alt="Social activist poster in Cophenhagen">
+            <figcaption>Witty poster developed by Danish art group Superflex. This work is successful in raising critique since its intended use is to leave the gallery and reach the general public.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art3.jpeg" class ="flexbox-image" alt="Painting at the Tate Modern in London">
+            <figcaption>Painting by Michael Buthe that literally breaks out of the canvas. I’m wondering if this work would qualify as a painting without having any paint on it?</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art4.jpeg" class ="flexbox-image" alt="Landscape photo at the Fotografiska in Stockholm">
+            <figcaption>Close-up of a Hans Strand’s photograph. Strand’s photographs compositional resemble abstract paintings more so than photographs—maybe that’s why I like them so much!</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art5.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Woven sculpture at the Museum of Contemporary Art Chicago. Weaving alongside the staircase, the sculpture acts as the unifying element across all three floors.</figcaption>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="image">
+            <img src="../images/Art6.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Art installation by Magdalena Abakanowicz. One’s perception of scale and space is altered when being surrounded by a room full of plush potato forms.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art7.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Snippet of an analog painting incorporating digital imagery. Numerous questions arise as to the work’s classification: analog or digital, painting or graphic, textured or flat, etc.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art8.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Stone woman sunbathing in Tallinn, Estonia. Since the sculpture is incomplete, the earth becomes of the sculpture.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art9.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Bizarre installation by Lizzie Fitch. Words wouldn’t suffice in describing this work: it is wilding creative, disturbing, and non-sensical—all at the same time.</figcaption>
+        </div>
+
+        <div class="image">
+            <img src="../images/Art10.jpeg" class ="flexbox-image" alt="Art installation at the Tate Modern in London">
+            <figcaption>Dynamic light sculpture by Spencer Finch that heavily contrasts with the traditions columns around it. It is literally and figuratively in the center of attention.</figcaption>
+        </div>
+    </div>
+</div>
+</body>
+</main>
+</html>
