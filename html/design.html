@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Visual Vignettes</title>
+    <link rel= "stylesheet" type= "text/css" href= "../css/stylesheet.css">
+    <link rel= "stylesheet" href="../css/lightbox.css">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>  
+<main> 
+<nav>
+    <div class="flexbox-navigation" id="myTopnav">
+        <a href = "../html/index.html">Introduction</a>
+        <a href = "../html/art.html">Fine Art</a>
+        <a href = "../html/design.html">Design</a>
+        <a href = "../html/environments.html">Environments</a>
+        <a href = "javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+</nav>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "flexbox-navigation") {
+            x.className += " responsive";} 
+        else {x.className = "flexbox-navigation";}}
+</script>   
+    
+<div class=header>  
+    <h1>Design</h1>
+    <p>I consider myself a designer foremost; thus design is a discipline I engage with professionally and personally. Well-designed artifacts have an underlying commonality: engagement with pertinent issues and influencing human interaction.</p>
+</div>
+
+<div class= "controls">
+    <button type="button" class="control" data-filter="all">All</button>
+     <button type="button" class="control" data-filter=".America">North America</button>
+     <button type="button" class="control" data-filter=".Europe">Europe</button>
+</div>
+
+<div class="flexbox-body">
+<div class="row">
+    <div class="column">
+        <div class="image">
+            <figure class = "mix America">
+            <a href="../images/Design1.jpeg" data-lightbox="image-1" ><img src="../images/Design1.jpeg" class ="flexbox-image" alt="Bench Prototype at the Museum of Craft and Design in San Francisco"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Material exploration found at the Museum of Craft and Design. The studies investigate how nontraditional materials’ qualities can be leveraged to enhance existing products.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix America"> 
+            <a href="../images/Design2.jpeg" data-lightbox="image-2"><img src="../images/Design2.jpeg"  class ="flexbox-image" alt="Installation at the MOCA in Chicago"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Installation at the MOCA representing the circular economy. In exchange for a bar of soap, I donated to the artist’s foundation to encourage continued manufacturing.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix America"> 
+            <a href="../images/Design3.jpeg" data-lightbox="image-3"><img src="../images/Design3.jpeg"  class ="flexbox-image" alt="Propogranda posters at the de Young Museum in San Francisco"></a>
+            
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Americana propaganda posters at the DeYoung Museum. The posters deliver a powerful message while being very straightforward in its color choice and layout.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix Europe"> 
+            <a href="../images/Design4.jpeg" data-lightbox="image-4"><img src="../images/Design4.jpeg"  class ="flexbox-image" alt="Bauhaus Archive in Berlin"></a>   
+            
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>The Bauhaus largely influenced my identity as a designer. When visiting the Bauhaus Archive in Berlin, I strove to experience the space and artifacts as student might have. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix America"> 
+            <a href="../images/Design5.jpeg" data-lightbox="image-5" class = "mix America"><img src="../images/Design5.jpeg"  class ="flexbox-image" alt="Tactile Wall at the Cooper Hewitt Museum in New York City"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>I was pleasantly surprised when rubbing the furry wall at Copper Hewitt Museum. It emitted classical music based upon the direction and speed of the my rubbing.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="image"> 
+            <figure class = "mix Europe"> 
+            <a href="../images/Design6.jpeg" data-lightbox="image-6" class = "mix Europe"><img src="../images/Design6.jpeg"  class ="flexbox-image" alt="Light installation at the Stockholm Furniture Fair"></a> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Spotted at the Stockholm Furniture Fair, the cutout lampshades bathe the surrounding area with intricate patterns. The patterns become an installation in themselves. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix Europe"> 
+            <a href="../images/Design7.jpeg" data-lightbox="image-7" class = "mix Europe"><img src="../images/Design7.jpeg"  class ="flexbox-image" alt="Spatial design at the Stockholm Furniture Fair"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Seemingly incongruous space using a myriad of colors and patterns. The jarring elements created frenzy and I was instantly transported to a Candyland-esque environment. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix Europe"> 
+            <a href="../images/Design8.jpeg" data-lightbox="image-8" class = "mix Europe"><img src="../images/Design8.jpeg"  class ="flexbox-image" alt="Furniture set at the Designmuseum in Copenhagen"></a> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Infamous furniture set that questions the democracy of design. Should furniture be inherently affordable and inclusive or is it allowed to hold a fine art status?</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix Europe"> 
+            <a href="../images/Design9.jpeg" data-lightbox="image-9" class = "mix Europe"><img src="../images/Design9.jpeg"  class ="flexbox-image" alt="Typography poster at the Design Museum in Helsinki"></a> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Typography has an elevated status once freed from the confines of a page. Here, it becomes the focus of the gallery’s wayfinding and sets the exhibition’s tone. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image"> 
+            <figure class = "mix America">
+            <a href="../images/Design10.jpeg" data-lightbox="image-10" class = "mix America"><img src="../images/Design10.jpeg"  class ="flexbox-image" alt="Futuristic prototypes at the YBCA in San Francisco"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Room-scale installation exploring alternative futures at the YBCA. Being interested in speculative design, it was interesting to note the sociocultural differences in perspectives. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+    </div>
+</div>
+</div>
+<script src="../js/lightbox.js"></script>
+<script src="../js/mixitup.min.js"></script>
+<script> 
+    var containerEl = document.querySelector('.row');
+    var mixer = mixitup(containerEl);
+</script>
+
+<script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+</script>
+</main>
+</body>
+</html>

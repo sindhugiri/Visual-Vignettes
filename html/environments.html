@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Visual Vignettes</title>
+    <link rel= "stylesheet" type= "text/css" href= "../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/lightbox.css">  
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<main> 
+<nav>
+    <div class="flexbox-navigation" id="myTopnav">
+        <a href = "../html/index.html">Introduction</a>
+        <a href = "../html/art.html">Fine Art</a> 
+        <a href = "../html/design.html">Design</a>
+        <a href = "../html/environments.html">Environments</a>
+        <a href = "javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+</nav>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "flexbox-navigation") {
+            x.className += " responsive";} 
+        else {x.className = "flexbox-navigation";}}
+</script>   
+    
+<div class=header> 
+    <h1>Environments</h1>
+    <p>Environments are loosely defined since it is a combination of environmental places and man-made elements. I’m interested in how the combination of structures and landscape develop spaces: locations with meanings.</p>
+</div>
+
+<div class= "controls">
+        <button type="button" class="control" data-filter="all">All</button>
+         <button type="button" class="control" data-filter=".America">North America</button>
+         <button type="button" class="control" data-filter=".Europe">Europe</button>
+</div>
+
+<div class="flexbox-body">
+<div class="row">
+    <div class="column">
+        <div class="image">
+            <figure class = "mix America">
+            <a href="../images/Enviro1.jpeg" data-lightbox="image-1" class = "mix North America"><img src="../images/Enviro1.jpeg" class ="flexbox-image"  alt="Tartine Manufactory in San Francisco"></a> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>Outside the Tartine Manufactory and next to a ceramic warehouse. While I despise the pretentious hipster aesthetic, the décor and magazines were visually inspiring. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro2.jpeg" data-lightbox="image-2"><img src="../images/Enviro2.jpeg" class ="flexbox-image" alt="World War II memorial in Berlin"></a> 
+            
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>The Holocaust Memorial in Berlin allows one to get lost within it but also feel connected to the greater environment. I loved seeing people pass through the blocks as I did. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro3.jpeg" data-lightbox="image-3"><img src="../images/Enviro3.jpeg"  class ="flexbox-image" alt="Persian ruins at the Pergamon museum in Berlin"></a> 
+            
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>The incomplete Persian ruins feel incongruous in the closed Pergamon Museum. It felt like viewing a movie set as opposed to experiencing an ancient civilization. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro4.jpeg" data-lightbox="image-4"><img src="../images/Enviro4.jpeg" data-lightbox="image-4" class ="flexbox-image" alt="Swing installation at the Tate Modern in London"></a>
+            
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption> Superflex’s sculptures creates neither a playground nor an art installation. The unique combination allowed me to experience the Tate Modern as a child and a serious visitor. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro5.jpeg" data-lightbox="image-5"><img src="../images/Enviro5.jpeg" class ="flexbox-image" alt="Quirky cafe in Copenhagen"></a> 
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption> Absurd, garish décor cover every inch of this Danish café and create an otherworldly experience. I’m nostalgic for the luxurious rose earl grey tea I drank there. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro6.jpeg" data-lightbox="image-6"><img src="../images/Enviro6.jpeg" class ="flexbox-image" alt="Botanical garden in Helsinki"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption> The sharp contrast of lush greenery and cold snow in Helsinki was stunning. It was extremely polarizing experiencing two different worlds within a few feet of each other.  </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro7.jpeg" data-lightbox="image-7"><img src="../images/Enviro7.jpeg" class ="flexbox-image" alt="Sculpture room at the Victoria and ALbert Museum in London"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>The sculpture room at the Victoria and Albert Museum was visual overstimulation but also absolute beauty. Every artifact transported me through eras and cultures.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix Europe"> 
+            <a href="../images/Enviro8.jpeg" data-lightbox="image-8"><img src="../images/Enviro8.jpeg" class ="flexbox-image" alt="Opera House in Oslo"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption> Walking on the Oslo opera house’s roof was a complete reversal of traditional architecture. I wasn’t constricted to stay in the building but rather experience it fully. </figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix America">
+            <a href="../images/Enviro9.jpeg" data-lightbox="image-9"><img src="../images/Enviro9.jpeg" class ="flexbox-image" alt="Installation at BAMPFA in Berkeley"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption> Weavings at the BAMPFA create pockets for exploration. The gallery was transformed into a conglomeration of mini environments and I loved traversing through them.</figcaption></figure>
+            </div>
+            </figure>
+        </div>
+
+        <div class="image">
+            <figure class = "mix America">
+            <a href="../images/Enviro10.jpeg" data-lightbox="image-10"><img src="../images/Enviro10.jpeg" class ="flexbox-image" alt="Grand Central Station in New York City"></a>
+
+            <button class="accordion"></button>
+            <div class="panel">
+                <figure><figcaption>While being confused in New York City, I encountered the Grand Central Station’s ceiling. Being lost in the king of all cities was almost like being in another universe. </figcaption></figure>
+            </div>
+            </figure>
+        </div>   
+    </div>
+</div>
+</div>
+<script src="../js/lightbox.js"></script>
+<script src="../js/mixitup.min.js"></script>
+
+<script>
+    var containerEl = document.querySelector('.row');
+    var mixer = mixitup(containerEl);
+</script>
+
+<script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+    
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+</script>
+</main>
+</body>
+</html>
