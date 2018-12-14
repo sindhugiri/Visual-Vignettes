@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Visual Vignettes</title>
+    <link rel= "stylesheet" type= "text/css" href= "../css/stylesheet.css">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel= "stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+<main id = "maincontent">
+<nav>
+    <div class="navigation" id="nav-toggle">
+        <div class="firstlink">
+        <a href = "../html/index.html" class = "link" id ="CurrentPage">Introduction</a><br/>
+        </div>
+        <a href = "../html/art.html" class = "link">Fine Art</a><br/>
+        <a href = "../html/design.html" class = "link">Design</a><br/>
+        <a href = "../html/environments.html" class = "link">Environments</a><br/>
+        <a href = "javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <!-- Try to make the Navigation Bar its own class so that you can manipulate it separately -->
+        
+    </div>
+</nav>
+
+<div> 
+    <div class=header>  
+        <h1>Visual Vignettes: a multi-location photo blog</h1>  
+        <p>I explore the domains of Fine Art, Design, and Environments in order to better relate it to my personal work. Art focuses on the formal aesthetics of a work. Design deconstructs the form and function of an artifact. Environments examines physical structures and the resulting spaces. Each influences the other and thus informs my work.</p>
+    </div>
+    <img id=biophoto src="../images/me.jpeg" alt="Profile photo of Sindhu Giri">  
+</div>
+
+<div class="footer"> 
+    <p>Designed and Somewhat Developed by Sindhu Giri</p>
+    <br/>
+    <div class = "hidden">
+    <p><a href="#maincontent">Skip to main content</a></p>
+    </div>
+</div> 
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("nav-toggle");
+        if (x.className === "navigation") {
+            x.className += " responsive";} 
+        else {x.className = "navigation";}}
+</script>  
+
+<script>
+$(document).ready(function(){
+	$('#nav-toggle').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+</script>
+
+</main>
+</body>
+</html>
